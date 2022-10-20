@@ -1,0 +1,47 @@
+.welcome {
+    position: relative;
+    background-image: url("../img/stomatologicheskoe.png");
+    background-size: cover;
+    height: 55rem;
+    padding: 3.5vw 0 3.5vw 6.5vw;
+}
+
+.welcome__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.welcome__image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 35.5vw;
+}
+
+.welcome__text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+    font-size: 5rem;
+    color: #FFFFFF;
+    text-shadow: 3px 3px 10px rgba(103, 199, 249, 0.8);
+}
+
+.welcome__subtitle {
+    font-size: 3.6rem;
+}
+
+.welcome__button {
+    width: 30rem;
+    margin-top: 20rem;
+    text-transform: uppercase;
+}
+
+@media (max-width: 720px) {
+    .welcome__button {
+        padding: 1rem;
+        width: 50vw;
+        margin-top: 15rem;
+    }
+}

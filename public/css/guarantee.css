@@ -1,0 +1,36 @@
+.guarantee {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../img/stomatologicheskoe.png");
+    background-size: cover;
+}
+
+.guarantee__service {
+    margin-top: 5rem;
+    width: 25rem;
+    background-color: white;
+}
+
+.guarantee__service-text {
+    color: #7B61FF;
+}
+
+.guarantee__title {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.guarantee__text {
+    color: white;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+    width: 75vw;
+}
+
+.guarantee__items {
+    flex-wrap: wrap;
+}

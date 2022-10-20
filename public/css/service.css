@@ -1,0 +1,31 @@
+.service {
+    padding: 3.1rem 1.3rem 1.6rem 1.3rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 390px;
+    /*width: 18.75vw;*/
+    display: flex;
+    border: 1px solid #7B61FF;
+    border-radius: 18px;
+}
+
+.service__header {
+    font-size: 2.6rem;
+    color: #7B61FF;
+    text-align: center;
+}
+
+.service__text {
+    font-size: 1.6rem;
+    color: #67C7F9;
+    text-align: center;
+    padding-top: 1.2rem;
+    border-top: #67C7F9 1px solid;
+}
+
+.service__title {
+    font-size: 2.5rem;
+    color: #7B61FF;
+    text-align: center;
+}

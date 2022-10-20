@@ -1,0 +1,11 @@
+.header {
+    padding: 1.4rem 6.6vw 1.5rem 6.5vw;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2vw;
+
+    -webkit-box-shadow: 0 10px 20px 0 rgba(123, 97, 255, 0.3);
+    -moz-box-shadow: 0 10px 20px 0 rgba(123, 97, 255, 0.3);
+    box-shadow: 0 10px 20px 0 rgba(123, 97, 255, 0.3);
+}
+

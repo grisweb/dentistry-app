@@ -1,0 +1,33 @@
+.burger-menu {
+    display: none;
+}
+
+.burger-menu__navigation {
+    height: auto;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 7rem;
+    z-index: 100;
+    display: none;
+    flex-direction: column;
+}
+
+.burger-menu__item {
+    padding: 1rem;
+    color: #7B61FF;
+}
+
+.burger-menu__item:hover {
+    color: #FF53A9;
+}
+
+.burger-menu__img {
+    background-color: white;
+}
+
+@media (max-width: 1145px) {
+    .burger-menu {
+        display: flex;
+        flex-direction: column;
+    }
+}

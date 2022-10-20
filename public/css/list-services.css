@@ -1,0 +1,48 @@
+.services__list-services {
+    margin: 4.7rem auto 2rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4.5rem;
+}
+
+.list-services__item-list-services {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-list-services__title {
+    font-size: 2.6rem;
+    color: #7B61FF;
+}
+
+.item-list-services__text {
+    font-size: 2rem;
+    font-style: italic;
+    color: #7B61FF;
+    width: 52vw;
+}
+
+.item-list-services__price {
+    color: #7B61FF;
+    font-size: 3rem;
+}
+
+
+@media (max-width: 720px) {
+    .list-services__item-list-services {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .item-list-services__title {
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+
+    .item-list-services__text {
+       text-align: left;
+        display: flex;
+        align-self: center;
+    }
+}

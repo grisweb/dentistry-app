@@ -1,0 +1,32 @@
+.image-modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.image-modal__content {
+    width: 80%;
+    height: 80%;
+    position: fixed;
+    padding: 3vw;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-modal__close-btn {
+border-radius: 50%;
+}
+
+.image-modal__img {
+    width: 90%;
+    height: auto;
+}

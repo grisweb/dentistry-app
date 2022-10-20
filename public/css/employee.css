@@ -1,0 +1,254 @@
+.employee {
+    padding: 12.3rem 8vw 5rem 8vw;
+}
+
+.employee-modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.employee-modal__content {
+    width: 70vw;
+    position: fixed;
+    background-color: white;
+    padding: 3vw;
+    border-radius: 18px;
+}
+
+.employee__main-info-employee {
+    display: flex;
+    column-gap: 3.6rem;
+    align-items: center;
+    margin: 0 auto;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 20px;
+}
+
+.main-info-employee__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #7B61FF;
+}
+
+.main-info-employee__title {
+    font-size: 4rem;
+}
+
+.main-info-employee__speciality {
+    font-size: 2.5rem;
+}
+
+.main-info-employee__education {
+    font-size: 2.5rem;
+}
+
+.main-info-employee__additional {
+    display: flex;
+    flex-direction: column;
+    row-gap: .7rem;
+}
+
+.employee__additional-info-employee {
+    margin-top: 4rem;
+    font-size: 2.5rem;
+    color: #7B61FF;
+}
+
+.employee-modal__data {
+    display: flex;
+    column-gap: 2vw;
+}
+
+.employee-modal__header {
+    text-align: center;
+    font-size: 4rem;
+    color: #7B61FF;
+}
+
+.employee-modal__form {
+    margin-top: 4.3rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+.employee-form__info {
+    display: flex;
+    column-gap: 2vw;
+}
+
+.employee-modal__doctor-name {
+    color: #7B61FF;
+    font-size: 2.6rem;
+    text-align: center;
+}
+
+.employee-modal__doctor-post {
+    color: #67C7F9;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.employee-form__item {
+    width: 100%;
+}
+
+.close-btn {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+._hidden {
+    display: none;
+}
+
+.employee-modal__switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.employee-modal__switch input {display:none;}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #7B61FF;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #7B61FF;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.employee-modal__subtext {
+    font-size: 2rem;
+    font-style: italic;
+    color: #7B61FF;
+}
+
+.employee-modal__switch-content {
+    display: flex;
+    align-items: center;
+    color: #7B61FF;
+    font-size: 2rem;
+    font-style: italic;
+    column-gap: 1rem;
+}
+
+.employee-modal__checkbox-text {
+    color: #7B61FF;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+input[type=checkbox] {
+    width: 2.1rem;
+    height: 2.1rem;
+}
+
+.employee-modal__checkbox-content {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.employee-modal__button {
+    display: flex;
+    align-self: flex-end;
+}
+
+@media (max-width: 720px) {
+    .employee__main-info-employee {
+        flex-direction: column;
+    }
+
+    .employee-modal__form {
+        row-gap: .5rem;
+        margin-top: 1rem;
+    }
+
+    .employee-modal__image {
+        width: 55vw;
+    }
+}
+
+@media (max-width: 1075px) {
+    .employee__main-info-employee {
+        flex-direction: column;
+    }
+
+    .employee-modal__data {
+        flex-direction: column;
+    }
+
+    .employee-modal__doctor {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 390px) {
+    .employee__main-info-employee {
+        flex-direction: column;
+    }
+
+    .input-message {
+        height: 7.2rem;
+    }
+
+}
+
+

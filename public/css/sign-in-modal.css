@@ -1,0 +1,125 @@
+.sign-in-modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.sign-in-modal__content {
+    width: 70vw;
+    position: fixed;
+    background-color: white;
+    padding: 3vw;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.sign-in-modal__btns {
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+}
+
+.sign-in-modal__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.sign-in-modal__data {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.sign-in-modal__header {
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.register-modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.register-modal__content {
+    width: 70vw;
+    position: fixed;
+    background-color: white;
+    padding: 3vw;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.register-modal__btns {
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+}
+
+.register-modal__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.register-modal__data {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.register-modal__header {
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+._hidden {
+    display: none;
+}
+
+@media (max-width: 445px) {
+    .input {
+        width: 60vw;
+    }
+
+    .sign-in-modal__button {
+        padding: .5rem 1rem;
+    }
+
+    .item-list-services__title {
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+
+    .item-list-services__text {
+        text-align: left;
+        display: flex;
+        align-self: center;
+    }
+}
+

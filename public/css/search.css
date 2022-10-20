@@ -1,0 +1,28 @@
+.search__input {
+    width: 80vw;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #7B61FF;
+    border-radius: 20px;
+}
+
+.search__input::-webkit-input-placeholder {
+    color: #7B61FF;
+    font-style: italic;
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+.search__btn {
+    padding: 10px 30px;
+    width: 10rem;
+    height: 5rem;
+    background: #7B61FF;
+    border-radius: 20px;
+    color: white;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+}

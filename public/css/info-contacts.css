@@ -1,0 +1,15 @@
+.info-contacts__title {
+    color: #7B61FF;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.info-contacts__subtitle {
+    color: #00A8FF;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0 6vw;
+}

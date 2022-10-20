@@ -1,0 +1,25 @@
+.gap-block__gap {
+    width: 50vw;
+    height: 40rem;
+}
+
+.gap-block {
+    display: flex;
+    column-gap: 1.5vw;
+}
+
+.gap-block__title {
+    color: #7B61FF;
+    font-size: 3rem;
+}
+
+.gap-block__text {
+    color: #7B61FF;
+    font-size: 1.8rem;
+}
+
+.gap-block__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4.5rem;
+}

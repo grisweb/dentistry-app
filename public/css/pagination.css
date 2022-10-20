@@ -1,0 +1,14 @@
+.pagination__btn {
+    width: 6.5rem;
+    padding: 0;
+}
+
+.pagination__prev {
+    height: 50px;
+}
+.pagination__next {
+    height: 50px;
+}
+.pagination__btn_arrow, .pagination__btn_arrow{
+    height: 50px;
+}

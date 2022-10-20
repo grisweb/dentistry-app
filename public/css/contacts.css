@@ -1,0 +1,35 @@
+.contacts {
+    padding: 4rem 6.5vw 8.4rem;
+}
+
+.contacts__title {
+    text-align: center;
+    font-size: 4rem;
+    color: #7B61FF;
+    margin-bottom: 5rem;
+}
+
+.contacts-form__data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-form__message {
+    margin-top: 3.4rem;
+}
+
+.contacts__form {
+    margin-top: 4.2rem;
+}
+
+.contacts-form__submit {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.1rem;
+}
+
+.contacts-form__memo {
+    color: #7B61FF;
+    font-style: italic;
+    font-size: 2rem;
+}
